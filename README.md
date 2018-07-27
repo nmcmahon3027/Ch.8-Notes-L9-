@@ -21,3 +21,22 @@
     
     
     One I have (line 22-25), its the same for ALL implememtations of Map
+    
+    Lab9 vid (24 min in)
+    Elements in ArrayList is a LinkedList (NOT in, NOT string) LL!
+        key=word->hashCode of word = %size of hash table ==gives=>index into the ArrayList
+        then, for every new word, I create a new node
+        if word is already found, CALCULATE its hashCode, TAKE key (aka the word), hashCode of that word (aka floor.%)size of
+   
+        table (which give sthe index), use that to see if there is a word there or a LL
+        if no LL, create one and put value(1) in
+        if there is a LL, start searching through LL to say:
+        are you the key? is this the count where myWord is located?
+        if YES, ++ (increment by 1)
+
+
+The java.lang.Math.floor(double a) returns the largest (closest to positive infinity) double value that is less than or equal to the argument and is equal to a mathematical integer. Special cases: If the argument value is already equal to a mathematical integer, then the result is the same as the argument.
+
+MyHashMap.java
+        
+        private static final int DEFAULT_TABLE_SIZE = 11; //default is ALWAYS 11
