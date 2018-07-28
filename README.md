@@ -40,3 +40,7 @@ The java.lang.Math.floor(double a) returns the largest (closest to positive infi
 MyHashMap.java
         
         private static final int DEFAULT_TABLE_SIZE = 11; //default is ALWAYS 11
+  
+  //size of hashTable = HOW MANY buckets we have, different from hashMap
+  //size of myHashMap = go through every bucket and see evey node, every LL, and every bucket in this ArrayList
+    //**HASHMAP > HASHTABLE
